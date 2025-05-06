@@ -1,0 +1,12 @@
+# General
+__pycache__/
+*.pyc
+
+# Backend
+backend/.env
+backend/venv/
+
+# Frontend
+node_modules/
+dist/
+
