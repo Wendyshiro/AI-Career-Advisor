@@ -1,4 +1,5 @@
-@import "tailwindcss/preflight";
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 :root {
@@ -17,21 +18,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Times New Roman', Times, serif;
-  @apply antialiased leading-relaxed tracking-wide;
 }
-
-input, textarea {
-  @apply w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-500 transition;
-}
-
-button {
-  @apply bg-purple-700 text-white px-4 py-2 rounded-md font-semibold hover:bg-purple-800 transition;
-}
-
-.card {
-  @apply bg-white p-6 rounded-xl shadow-lg max-w-xl mx-auto mt-8;
-}
-
 @layer base {
   body {
     font-family: 'Times New Roman', Times, serif;
