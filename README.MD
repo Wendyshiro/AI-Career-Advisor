@@ -1,8 +1,20 @@
-# AI Career Advisor App
 
-A full-stack AI-powered career advisor built with React (frontend) and FastAPI (backend). Connects to OpenAI's API for real-time, actionable guidance.
+# 🎓 AI Career Advisor App
 
-## 📁 Project Structure
+An AI-powered career guidance tool that helps users explore potential career paths based on their interests. Built with a React frontend, FastAPI backend, and integrated with OpenAI’s GPT-3.5 for intelligent, real-time recommendations.
+
+---
+
+## 🧠 Features
+
+- Personalized career recommendations based on user input
+- Real-time Q&A functionality using OpenAI's GPT-3.5 API
+- Clean, responsive UI with React + TypeScript
+- Modular full-stack architecture for easy scaling
+
+---
+
+## 🗂️ Project Structure
 
 - `/frontend` — React + TypeScript UI
 - `/backend` — FastAPI server calling OpenAI API
